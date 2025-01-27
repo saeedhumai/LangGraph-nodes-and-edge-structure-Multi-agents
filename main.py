@@ -42,7 +42,7 @@ def main():
     llm = ChatOpenAI(
         model="gpt-4o-mini", 
         openai_api_key=openai_api_key,
-        temperature=0
+        temperature=0.7
     )
 
     # Create the graph
